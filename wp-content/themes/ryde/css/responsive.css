@@ -1,0 +1,47 @@
+@media only screen and (max-width:760px) {
+img {max-width:100%; height:auto;}
+
+.pull-left{ float:none; }
+.pull-right{ float:none; }
+
+
+	#top-section .content{ max-width:96%; padding:5px 2%; margin:0px auto; }
+	.logo{ float:none;  width:100%; text-align:center;}
+	#top-section .right{ float:none; width:100%; text-align:center; }
+	#top-section ul.lang-nav{ margin:0px; padding:0px; list-style:none; text-align:center; }
+	#top-section ul.lang-nav li{ margin:0px; padding:0px 10px; float:none; display:inline-block; }
+	#top-section ul.lang-nav li a{ color:#686a6b; line-height:30px; }
+	#top-section ul.lang-nav li:last-child{ background:none; }
+	
+	#top-section ul.social-nav{ margin:0px; padding:0px; list-style:none; text-align:center; }
+	#top-section ul.social-nav li{ display:inline-block;  float:none; text-align:center; }
+	
+	#navigation-section .content{ max-width:990px; margin:0px auto; padding:0px; position:relative; }
+	
+	#navigation-section nav ul.order{ margin:0px; padding:0px; list-style:none; }
+		#navigation-section nav ul.order li{ background:url(../images/orderform-bg.jpg) top repeat-x; float:none; width:100%; color:#fff; font-size:17px; font-weight:700; text-transform:uppercase; }
+		#navigation-section nav ul.order li a{  line-height:38px; padding:0px 15px; }
+		
+		#welcome-section .content .welcome{ position:absolute; left:0px; top:-14px; margin:0px; padding:0px; }
+		#welcome-section-inner .content .welcome{ position:absolute; left:0px; top:-14px; margin:0px; padding:0px; }
+		
+		.four-box .box01{ margin:10px auto; }
+		.four-box .box02{  margin:10px auto; }
+		.four-box .box03{  margin:10px auto; }
+		.four-box .box04{  margin:10px auto; }
+		
+		#middle-content .text-content{ width:96%; padding:0px 2%; }
+		#middle-content .group-image{ width:100%; padding:5% 0 0 0; }
+		
+		#bottom-content .service-nav{ width:96%; margin:0px; padding:1%; background:#00529f; border:1px solid #021934; }
+		
+		#bottom-content .service-text{ width:96%; margin:0px; padding:1%; border:1px solid #946e01; background:#f5f5f5; }
+		
+		.contact-section-top-left{ width:98%; float:none; height:auto; padding:0px; margin:0px 0px 15px 0px;}
+	.tab-section .tab-details .tableborder .tablerow .lbl01{ float:left; width:50%;}
+	.tab-section .tab-details .tableborder .tablerow .resulttxt{ float:left; width:50%;}
+	
+	.orderform-section .formpart{ float:none; width:98%; margin:0 auto;}
+
+}
+
