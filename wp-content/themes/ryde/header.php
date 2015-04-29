@@ -192,7 +192,7 @@ filter: none;
 
                             <li><a class="smoothScroll" href="#Clients">Clients</a></li>
 
-                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=39">Music Samples</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=39">RYDE Music</a></li>
 
                             <li><a class="smoothScroll" href="#Refine">Refine</a></li>
 
@@ -210,7 +210,7 @@ filter: none;
 
                             <li><a class="smoothScroll" href="<?php echo esc_url( home_url( '/' ) ); ?>#Clients">Clients</a></li>
 
-                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=39">Music Samples</a></li>
+                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=39">RYDE Music</a></li>
 
                             <li><a class="smoothScroll" href="<?php echo esc_url( home_url( '/' ) ); ?>#Refine">Refine</a></li>
 
@@ -240,7 +240,7 @@ filter: none;
 
 
 
-                        	<li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
+                        	<li><a href="https://www.facebook.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
 
 
 
