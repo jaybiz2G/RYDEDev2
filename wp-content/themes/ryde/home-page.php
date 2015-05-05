@@ -206,11 +206,11 @@ get_header(); ?>
                             	<div class="box">
                             	<?php $value = get_field( "outer_links" ); ?>
 
-                                    <a href="<?php echo $value; ?>"><?php the_post_thumbnail( 'thumbnail', array( 'class' => 'fullimg' ) ); ?></a>
+                                    <a href="<?php echo $value; ?>" target="_blank"><?php the_post_thumbnail( 'thumbnail', array( 'class' => 'fullimg' ) ); ?></a>
 
                                     <div class="boxheading">
 
-                                    	<a href="<?php echo $value; ?>"><?php the_title();?></a>
+                                    	<a href="<?php echo $value; ?>" target="_blank"><?php the_title();?></a>
 
                                     </div>
 
