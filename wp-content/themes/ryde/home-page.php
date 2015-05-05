@@ -240,7 +240,7 @@ get_header(); ?>
 		<a name="Refine"></a>
     	<div class="web-heading">
 
-                	<h2>Refine</h2>
+                	<h2>Refine Your Demo</h2>
 
                 </div>
 
