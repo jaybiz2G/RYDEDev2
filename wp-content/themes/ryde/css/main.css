@@ -51,7 +51,7 @@
 	transition:all 0.3s ease-out 0s;
 }
 
-.abh .overlay{ height:100%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
+.abh .overlay{ height:70%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
 
 .abh .overlay p{ top:0px; color:#fff; font-size:14px; font-weight:400; }
 
