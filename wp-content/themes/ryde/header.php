@@ -244,15 +244,15 @@ filter: none;
 
 
 
-                            <li class="esp"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/twitter-icon.png" alt="twitter"></a></li>
+                            <li class="esp"><a href="https://twitter.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/twitter-icon.png" alt="twitter"></a></li>
 
 
 
                             <li class="ssp"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/instragram-icon.png" alt="instragram"></a></li>
 
 
+ <li><a href="https://www.youtube.com/channel/UCTS4TGtb8Uv7nX5w4gutS9g"><img src="http://comerydewithme.com/wp-content/uploads/2015/05/youtube2.png" alt="Youtube"></a></li>
 
-                            <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/google-plus-icon.png" alt="google plus"></a></li>
 
 
 
