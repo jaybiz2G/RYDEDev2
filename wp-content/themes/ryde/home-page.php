@@ -82,7 +82,7 @@ get_header(); ?>
 		<a name="About"></a>
             	<div class="web-heading">
 
-                	<h2>About  us</h2>
+                	<h2>What We Do</h2>
 
                 </div>
 
