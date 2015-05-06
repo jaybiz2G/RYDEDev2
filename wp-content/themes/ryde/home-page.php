@@ -162,6 +162,7 @@ get_header(); ?>
 
 		<a name="About"></a>
 
+<<<<<<< HEAD
             	<div class="web-heading showabout">
 
 
@@ -169,6 +170,9 @@ get_header(); ?>
                 	<h2>What We Do </h2>
 
 
+=======
+                	<h2>What We Do</h2>
+>>>>>>> origin/master
 
                 </div>
 

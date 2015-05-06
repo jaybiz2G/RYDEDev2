@@ -128,15 +128,11 @@
 
 
 
-                        	<li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
+                        	<li><a href="https://www.facebook.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
 
 
 
                             <li class="esp"><a href="https://twitter.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/twitter-icon.png" alt="twitter"></a></li>
-
-
-
-                            <li class="ssp"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/instragram-icon.png" alt="instragram"></a></li>
 
 
 
