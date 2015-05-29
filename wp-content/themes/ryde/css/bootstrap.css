@@ -2249,6 +2249,21 @@ table th[class*="col-"] {
   min-height: .01%;
   overflow-x: auto;
 }
+@media only screen and (max-width:1050px) {
+.overlay p {
+  color: hsl(0, 1%, 79%);
+  font-size: 12px !important;
+  font-weight: 100;
+}
+.footer-section nav ul li a {
+  color: hsl(0, 3%, 62%);
+  padding: 0 3px !important;
+  text-decoration: none;
+}
+.header-section nav ul li a {
+  padding: 0 6px!important;
+}
+}
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
@@ -2512,7 +2527,7 @@ textarea.form-group-sm .form-control,
 select[multiple].input-sm,
 select[multiple].form-group-sm .form-control {
   height: auto;
-}
+} 
 .input-lg,
 .form-group-lg .form-control {
   height: 46px;

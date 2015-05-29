@@ -141,8 +141,33 @@ filter: none;
 
 
 <![endif]-->
+<script>
+
+/*$(".comment").click(function(e){
+    e.preventDefault();
+    $(this).toggleClass("clicked");
+});*/
+
+$(document).ready(function () {
+  $(document).click(function (e) {
+    fire(e);
+  });
+});
+
+function fire(e) {
+
+      $(".sectionbox team-member").find("overlay").each(function() {                                        
+                      var $thiss = jQuery(this);
+
+                }
+        $(this).find('.sectionbox team-member').css('opacity','1');
+        $(this).find('.overlay h2').css('opacity','1');
+        $(this).find('.overlay p').css('opacity','1',);
+ //alert('hi'); 
+ });
 
 
+</script>
 
 </head>
 
@@ -240,16 +265,20 @@ filter: none;
 
 
 
-                        	<li><a href="https://www.facebook.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
+                        	<li><a target="_blank" href="https://www.facebook.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/facebook-icon.png" alt="facebook"></a></li>
 
 
 
-                            <li class="esp"><a href="https://twitter.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/twitter-icon.png" alt="twitter"></a></li>
+                            <li class="esp"><a target="_blank" href="https://twitter.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/twitter-icon.png" alt="twitter"></a></li>
 
 
 
- <li><a href="https://www.youtube.com/channel/UCTS4TGtb8Uv7nX5w4gutS9g"><img src="http://comerydewithme.com/wp-content/uploads/2015/05/youtube2.png" alt="Youtube"></a></li>
+ <li><a target="_blank" href="https://www.youtube.com/channel/UCTS4TGtb8Uv7nX5w4gutS9g"><img src="http://comerydewithme.com/wp-content/uploads/2015/05/youtube2.png" alt="Youtube"></a></li>
 
+
+<li class="esp"><a target="_blank" href="https://www.reverbnation.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon1.png" alt="twitter"></a></li>
+
+ <li><a target="_blank" href="https://soundcloud.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon2.png" alt="Youtube"></a></li>
 
 
 

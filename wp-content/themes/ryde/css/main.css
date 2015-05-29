@@ -1,5 +1,4 @@
 
-
 /*=========================
 =======Recent-works CSS=======
 ===========================*/
@@ -38,11 +37,16 @@
 .overlay {
 	position:absolute;
 	bottom:0;
+display:none;
+
 	left:0;
+z-index:9999;
 	height:100%;
 	width:100%;
 	color: #fff;
 	padding:30px;
+
+
 	background-color:rgba(0, 0, 0, 0.90);
 	-webkit-transition:all 0.3s ease-out 0s;
 	-moz-transition:all 0.3s ease-out 0s;
@@ -51,7 +55,7 @@
 	transition:all 0.3s ease-out 0s;
 }
 
-.abh .overlay{ height:100%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
+.abh .overlay{ height:70%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
 
 .abh .overlay p{ top:0px; color:#fff; font-size:14px; font-weight:400; }
 
@@ -84,7 +88,44 @@
 .team-member:hover .overlay p, 
 .team-member:hover .overlay h4, 
 .team-member:hover .social-icons {
-	opacity:1;
+	display:block;	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+
+.portfolio-content:focus .overlay a.folio-detail, 
+.portfolio-content:focus .overlay a.folio-link, 
+.portfolio-content:focus .overlay h2, 
+.portfolio-content:focus .overlay p, 
+.portfolio-content:focus .overlay, 
+.team-member:focus .overlay, 
+.team-member:focus .overlay p, 
+.team-member:focus .overlay h4, 
+.team-member:focus .social-icons {
+	display:block;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+
+.portfolio-content:active .overlay a.folio-detail, 
+.portfolio-content:active  .overlay a.folio-link, 
+.portfolio-content:active  .overlay h2, 
+.portfolio-content:active  .overlay p, 
+.portfolio-content:active  .overlay, 
+.team-member:active  .overlay, 
+.team-member:active  .overlay p, 
+.team-member:active  .overlay h4, 
+.team-member:active  .social-icons {
+	display:block;
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
@@ -130,7 +171,7 @@
 	-o-transform: scale(0.5);
 	-ms-transform: scale(0.5);
 	transform: scale(0.5);
-	opacity: 0;
+	opacity: 1;
 }
 
 

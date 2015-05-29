@@ -86,7 +86,7 @@
 
 
 
-                	<nav>
+                	<!--nav>
 
 
 
@@ -108,7 +108,7 @@
 
 
 
-                    </nav>
+                    </nav-->
 
 
 
@@ -138,6 +138,10 @@
 
                             <li><a href="https://www.youtube.com/channel/UCTS4TGtb8Uv7nX5w4gutS9g"><img src="http://comerydewithme.com/wp-content/uploads/2015/05/youtube2.png" alt="Youtube"></a></li>
 
+
+<li class="esp"><a target="_blank" href="https://www.reverbnation.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon1.png" alt="twitter"></a></li>
+
+ <li><a target="_blank" href="https://soundcloud.com/comerydewithme"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon2.png" alt="Youtube"></a></li>
 
 
                         </ul>
@@ -179,6 +183,7 @@
     	Copyright &copy; 2015 <a href="#">WiselyThemes</a>. All rights reserved.<br>
 
 Developed By <a target="_blank" href="http://timefortheweb.com/">TIMEFORTHEWEB</a>
+
 
 
 

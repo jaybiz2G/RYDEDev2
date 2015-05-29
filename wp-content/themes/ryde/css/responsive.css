@@ -1,4 +1,14 @@
-@media only screen and (max-width:760px) {
+@media only screen and (max-width: 850px) {
+.overlay p {
+  color: hsl(0, 1%, 79%);
+  font-size: 12px;
+  font-weight: 100;
+}
+
+}
+
+@media only screen and (max-width:760px)
+ {
 img {max-width:100%; height:auto;}
 
 .pull-left{ float:none; }
@@ -44,4 +54,22 @@ img {max-width:100%; height:auto;}
 	.orderform-section .formpart{ float:none; width:98%; margin:0 auto;}
 
 }
+	
+
+
+@media only screen and (max-width:500px){.web-heading {
+  height: 211px;
+  position: relative;
+  text-align: center;
+  top: 129px;
+  width: 100%;
+}
+.web-heading h2 {
+  font-family: 'serifa_std65_bold';
+  font-size: 34px;
+}}
+ {
+
+
+
 
