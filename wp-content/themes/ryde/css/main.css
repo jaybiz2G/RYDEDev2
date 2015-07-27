@@ -32,13 +32,12 @@
 }
 
 
-
 .overlay {
 	position:relative;
 	top:0;
-/*display:none;
-*/	left:0;
-z-index:9999;
+	opacity:0;
+	left:0;
+	z-index:9999;
 	height:100%;
 	width:100%;
 	color: #fff;
@@ -49,13 +48,8 @@ z-index:9999;
 	-ms-transition:all 0.3s ease-out 0s;
 	-o-transition:all 0.3s ease-out 0s;
 	transition:all 0.3s ease-out 0s;
+	transform:scale(0.5);
 }
-.team-member.abh .overlay {
-	display:none;
-}
-.abh .overlay{ height:70%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
-
-.abh .overlay p{ top:0px; color:#fff; font-size:14px; font-weight:400; }
 
 .overlay h2, .overlay h4 {
 	-webkit-transition:all 0.3s ease-out 0.15s;
@@ -65,6 +59,7 @@ z-index:9999;
 	transition:all 0.3s ease-out 0.15s;
 	position: relative;
 	top:30%;
+	transform:scale(0.5);
 }
 
 .overlay p {
@@ -86,7 +81,8 @@ z-index:9999;
 .team-member:hover .overlay p, 
 .team-member:hover .overlay h4, 
 .team-member:hover .social-icons {
-	display:block;	-moz-transform: scale(1);
+	display:block;
+-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
@@ -105,10 +101,9 @@ z-index:9999;
 .team-member:focus .overlay p, 
 .team-member:focus .overlay h4, 
 .team-member:focus .social-icons {
-	display:block;
-	-moz-transform: scale(1);
-position:absolute;
-top:65px;
+	opacity:1;	top:65px;
+-moz-transform: scale(1);
+
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
@@ -122,14 +117,6 @@ top:65px;
  height: 100%;
 }
 
-.abh .overlay {
-  height: 70%;
-/*  top: -175px !important;
-*/  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  padding:30px 15px;
-}
 
 .portfolio-content:active .overlay a.folio-detail, 
 .portfolio-content:active  .overlay a.folio-link, 
@@ -173,6 +160,29 @@ top:65px;
 	-o-transition:all 0.3s ease-out 0.10s;
 	transition:all 0.3s ease-out 0.10s;	
 }
+.team-member:hover .overlay a.folio-detail, 
+.team-member:hover .overlay a.folio-link, 
+.team-member:hover .overlay p, 
+.team-member:hover .overlay h2,  
+.team-member:hover .overlay, 
+.team-member:hover .overlay h4, 
+.team-member:hover.social-icons {
+opacity: 1;
+}
+.overlay a.folio-detail, 
+.overlay a.folio-link, 
+.overlay p, 
+.overlay h2,  
+.overlay, 
+.overlay h4, 
+.social-icons {
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform:  scale(0.5);
+	-ms-transform:  scale(0.5);
+	transform:  scale(0.5);
+opacity: 0;
+}
 
 .overlay a.folio-detail, 
 .overlay a.folio-link, 
@@ -181,6 +191,20 @@ top:65px;
 .overlay, 
 .overlay h4, 
 .social-icons {
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	opacity: 0;
+}
+.team-member:hover .overlay a.folio-detail, 
+.team-member:hover .overlay a.folio-link, 
+.team-member:hover .overlay p, 
+.team-member:hover .overlay h2,  
+.team-member:hover .overlay, 
+.team-member:hover .overlay h4, 
+.team-member:hover .social-icons {
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
@@ -189,15 +213,6 @@ top:65px;
 	opacity: 1;
 }
 
-.team-member.abh .overlay a.folio-detail, 
-.overlay a.folio-link, 
-.overlay p, 
-.overlay h2,  
-.overlay, 
-.overlay h4, 
-.social-icons {
-	opacity: 1;
-}
 
 
 .overlay h4{ color:#59b8b0!important; font-size:22px; font-weight:700; }
@@ -208,4 +223,219 @@ top:65px;
 
 
 
+
+
+
+
+
+
+/*=========================
+=======Recent-works CSS=======
+===========================*/
+
+
+.overlay2 {
+	position:relative;
+	top:0;
+display:none;
+	left:0;
+z-index:9999;
+	height:100%;
+	width:100%;
+	color: #fff;
+	padding:30px;
+	background-color:rgba(0, 0, 0, 0.90);
+	-webkit-transition:all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-out 0s;
+	-ms-transition:all 0.3s ease-out 0s;
+	-o-transition:all 0.3s ease-out 0s;
+	transition:all 0.3s ease-out 0s;
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+}
+.team-member.abh .overlay2 {
+	display:none;
+}
+.abh .overlay2{ height:70%; top:0px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; padding:20px 15px; }
+
+.abh .overlay2 p{ top:0px; color:#fff; font-size:14px; font-weight:400; }
+
+.overlay2 h2, .overlay2 h4 {
+	-webkit-transition:all 0.3s ease-out 0.15s;
+	-moz-transition:all 0.3s ease-out 0.15s;
+	-ms-transition:all 0.3s ease-out 0.15s;
+	-o-transition:all 0.3s ease-out 0.15s;
+	transition:all 0.3s ease-out 0.15s;
+	position: relative;
+	top:30%;
+}
+
+.overlay2 p {
+	-webkit-transition:all 0.3s ease-out 0.25s;
+	-moz-transition:all 0.3s ease-out 0.25s;
+	-ms-transition:all 0.3s ease-out 0.25s;
+	-o-transition:all 0.3s ease-out 0.25s;
+	transition:all 0.3s ease-out 0.25s;
+	position: relative;
+	top: 34%;
+}
+
+.portfolio-content:hover .overlay2 a.folio-detail, 
+.portfolio-content:hover .overlay2 a.folio-link, 
+.portfolio-content:hover .overlay2 h2, 
+.portfolio-content:hover .overlay2 p, 
+.portfolio-content:hover .overlay2, 
+.team-member:hover .overlay2, 
+.team-member:hover .overlay2 p, 
+.team-member:hover .overlay2 h4, 
+.team-member:hover .social-icons {
+	display:block;	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+
+.portfolio-content:focus .overlay2 a.folio-detail, 
+.portfolio-content:focus .overlay2 a.folio-link, 
+.portfolio-content:focus .overlay2 h2, 
+.portfolio-content:focus .overlay2 p, 
+.portfolio-content:focus .overlay2, 
+.team-member:focus .overlay2, 
+.team-member:focus .overlay2 p, 
+.team-member:focus .overlay2 h4, 
+.team-member:focus .social-icons {
+	display:block;
+	-moz-transform: scale(1);
+	position:absolute;
+	top:65px;
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.overlay2{
+    height: auto;
+    padding: 10%;
+    position: absolute;
+    top: 0;
+ height: 100%;
+}
+
+.abh .overlay2 {
+  height: 70%;
+/*  top: -175px !important;
+*/  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  padding:30px 15px;
+}
+
+.portfolio-content:active .overlay2 a.folio-detail, 
+.portfolio-content:active  .overlay2 a.folio-link, 
+.portfolio-content:active  .overlay2 h2, 
+.portfolio-content:active  .overlay2 p, 
+.portfolio-content:active  .overlay2, 
+.team-member:active  .overlay2, 
+.team-member:active  .overlay2 p, 
+.team-member:active  .overlay2 h4, 
+.team-member:active  .social-icons {
+	display:block;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.overlay2 a.folio-detail, 
+.overlay2 a.folio-link {
+	position:absolute;
+	left: 35px;	
+}
+
+.overlay2 a.folio-link {
+	bottom:22px;
+	font-size:24px;
+	-webkit-transition:all 0.3s ease-out 0.35s;
+	-moz-transition:all 0.3s ease-out 0.35s;
+	-ms-transition:all 0.3s ease-out 0.35s;
+	-o-transition:all 0.3s ease-out 0.35s;
+	transition:all 0.3s ease-out 0.35s;		
+} 
+
+.overlay2 a.folio-detail {
+	top:45px;	
+	font-size:60px;
+	-webkit-transition:all 0.3s ease-out 0.10s;
+	-moz-transition:all 0.3s ease-out 0.10s;
+	-ms-transition:all 0.3s ease-out 0.10s;
+	-o-transition:all 0.3s ease-out 0.10s;
+	transition:all 0.3s ease-out 0.10s;	
+}
+
+.overlay2 a.folio-detail, 
+.overlay2 a.folio-link, 
+.overlay2 p, 
+.overlay2 h2,  
+.overlay2, 
+.overlay2 h4, 
+.social-icons {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.overlay2 a.folio-detail, 
+.overlay2 a.folio-link, 
+.overlay2 p, 
+.overlay2 h2,  
+.overlay2, 
+.overlay2 h4, 
+.social-icons {
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	opacity: 1;
+}
+
+
+.overlay2 h4{ color:#59b8b0!important; font-size:22px; font-weight:700; }
+.overlay2 p{ color:#cbcaca; font-size:14px; font-weight:100; }
+
+.overlay2 p a{ background:#52a8a1; color:#fff; font-size:16px; font-weight:700; padding:10px 15px; display:table; margin-top:12px; text-decoration:none; }
+
+
+
+@media only screen and (max-width: 414px) {
+	.overlay a.folio-detail, .overlay a.folio-link, .overlay p, .overlay h2, .overlay, .overlay h4, .social-icons {
+  opacity: 1 !important;
+  	-moz-transform: scale(1)!important;
+	-webkit-transform: scale(1)!important;
+	-o-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	transform: scale(1)!important;  
+}
+.overlay {
+  display: block !important;
+-moz-transform: scale(1)!important;
+	-webkit-transform: scale(1)!important;
+	-o-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	transform: scale(1)!important;      opacity: 1 !important;
+	height:100% !important;
+}
+
+}
 

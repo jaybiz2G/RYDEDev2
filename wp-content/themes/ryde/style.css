@@ -1,4 +1,4 @@
-/*
+bck/*
 
 
 
@@ -1999,10 +1999,27 @@ border-radius: 6px;
 }
 
  @media (max-width: 850px) {
-
+	.overlay a.folio-detail, .overlay a.folio-link, .overlay p, .overlay h2, .overlay, .overlay h4, .social-icons {
+  opacity: 1 !important;
+  	-moz-transform: scale(1)!important;
+	-webkit-transform: scale(1)!important;
+	-o-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	transform: scale(1)!important;  
+}
+.overlay {
+  display: block !important;
+-moz-transform: scale(1)!important;
+	-webkit-transform: scale(1)!important;
+	-o-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	transform: scale(1)!important;      opacity: 1 !important;
+	height:100% !important;
+}
 }
 
  @media (max-width: 768px) {
+
 .about-section .web-heading {
   height: auto;
   top: 0;
@@ -2333,7 +2350,23 @@ border-radius: 6px;
 
  @media only screen and (max-width: 850px) {
 .overlay {
-  height: 84% !important;
+  height: 100%;
+  padding: 20% 10%;
+  position: absolute;
+  top: 0;
+}
+
+.threebox .col-sm-4
+{
+	margin-top:10px;
+}
+.team-member img {
+  width: auto\9;
+  height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 .overlay p {
 
@@ -2344,9 +2377,17 @@ border-radius: 6px;
 	font-weight: 100;
 
 }
-
-
-	.header-section{
+.overlay a.folio-detail, .overlay a.folio-link, .overlay p, .overlay h2, .overlay, .overlay h4, .social-icons {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.overlay {
+  display: block !important;
+  transform: scale(1) !important;
+    opacity: 1 !important;
+	
+}
+.header-section{
 display:block !important;
 } 
 .header-section nav ul li a {
@@ -2709,6 +2750,7 @@ display:block !important;
 { .header-section{
 display:block !important;
 } }*/
+
 @media only screen and (max-width: 480px) {
 .section01 {
   margin-top:0px !important;

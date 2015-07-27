@@ -132,7 +132,7 @@ get_header(); ?>
 
                                 <p class="text"><?php the_title();?></p>
 
-                                <div class="overlay">
+                                <div class="overlay2">
 
 											<p><?php echo (substr(get_the_content(),0,100));?></p>									
 
