@@ -430,6 +430,7 @@ z-index:9999;
 }
 /*Mobile and Tab with landscape and Portrait*/
 @media only screen and (max-width: 1024px) {
+.sectionbox.team-member {min-height: 458px;height:auto !important;}
 .overlay {
 position: relative !important;
 moz-transform: scale(1)!important;
@@ -439,7 +440,7 @@ moz-transform: scale(1)!important;
 transform: scale(1)!important;
 opacity: 1 !important;
 height: 100% !important;    
-display: block !important;}
+display: block !important;min-height: 208px;}
 .overlay p {
 font-weight: 400;
 moz-transform: scale(1)!important;
