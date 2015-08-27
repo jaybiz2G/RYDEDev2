@@ -435,7 +435,9 @@ z-index:9999;
 	-ms-transform: scale(1)!important;
 	transform: scale(1)!important;      opacity: 1 !important;
 	height:100% !important;
+	position: relative !important;
 }
-
+.overlay p {
+    font-weight: 400;
 }
-
+}
